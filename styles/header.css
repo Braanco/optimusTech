@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Josefin+Sans:wght@400;700&display=swap');
+@import "./variaveis.css";
+
+
+header{
+    width: auto;
+    height: 20%;
+    margin: 1rem 8rem 0 8rem;
+   
+}
+body{
+    width: auto;
+    height: 100vh;
+    
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    width:20%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+img{
+    width: 10%;
+    height: 10%;
+}
+.nome-logo{
+    font-size: 18px;
+    font-family: var(--font-principal);
+    font-weight: 500;
+
+}
+
+.lista-link{
+    width: 60%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    padding-left: 5%;
+}
+.link{
+    font-size: 16px;
+    font-family: var(--font-principal);
+    text-decoration: none;
+    color: var(--cor-principal);
+}
+
+.botoes{
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 40%;
+    padding: 5%;
+    border: none;
+    font-size: 16px;
+    font-family: var(--font-principal);
+    border-radius: 8px;
+}
+.btn-cadastrar{   
+    background-color: var(--cor-secundaria);
+    color: white;   
+     
+}
+.btn-entrar{
+    color: var(--cor-principal);
+}
+
+

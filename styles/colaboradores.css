@@ -1,0 +1,50 @@
+@import "./variaveis.css";
+@import "./reset.css";
+
+
+.container-colaboradores{
+    margin: 15rem 8rem 3rem 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+     
+}
+.colaboradores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.colaboradores-sub-titulo{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--font-principal);
+    color: var(--cor-secundaria);
+    margin-bottom: 2rem;
+
+}
+.colaboradores-titulo{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: var(--font-principal);
+    color: var(--cor-terciaria);
+    margin-left: 100px;
+    text-indent: -100px;
+    width: 60%;
+    margin-bottom: 3rem;
+}
+.colaboradores-nome{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--font-principal);
+    color: var(--cor-terciaria);
+    
+}
+.colaboradores-funcao{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--font-principal);
+    color: var(--cor-principal);
+    
+}
+

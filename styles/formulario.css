@@ -1,0 +1,59 @@
+@import "./variaveis.css";
+@import "./reset.css";
+
+
+.formulario-container{
+    margin: 15rem 8rem 2rem 8rem;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.formulario-titulo{
+    font-size: 36px;
+    font-family: var(--font-principal);
+    font-weight: 600;
+    color: var(--cor-terciaria);
+
+}
+.formulario-texto{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--font-principal);
+    color: var(--cor-principal);
+    
+}
+.formulario-input-botao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+.formulario-input{
+    width: 20%;
+    height: 2.5rem;
+    outline: none;
+    border: 1px solid var(--cor-principal);
+    border-radius: 8px;      
+}
+.formulario-input::placeholder{
+    font-size: 16px;
+    font-family: var(--font-principal);
+    font-weight: 400;
+    color: var(--cor-principal);
+    padding-left: 1em;
+}
+.formulario-botao{
+    background-color: var(--cor-secundaria);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px 12px 20px;
+    font-size: 16px;
+    font-family: var(--font-principal);
+    font-weight: 500;
+    color: white;
+
+}

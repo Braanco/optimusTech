@@ -1,0 +1,33 @@
+@import "./variaveis.css";
+@import "./reset.css";
+
+.metrica-container{
+    display: flex;
+    margin: 7rem 8rem 0 8rem;
+    justify-content: space-between;
+    gap: 3rem;
+    
+}
+.metrica{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem ;
+}
+.metrica-quantidade{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+
+}
+.metrica-titulo{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-terciaria);
+}
+.metrica-texto{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-principal);
+}
